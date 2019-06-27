@@ -1,0 +1,264 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="stylesheet.css" rel="stylesheet" type="text/css">
+  <script src="pagefunction.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <style>
+    @media only screen and (max-width:650px){
+      /*-- About Me Section --*/
+      .Page_Content .main-aboutme-wrapper{padding: 100px 20px;}
+      .Page_Content .main-aboutme-wrapper .aboutme-section-text h2{text-align: center;}
+      .Page_content .main-aboutme-wrapper .aboutme-section-text h6{font-size: 4vw;}
+      .Page_content .main-aboutme-wrapper .aboutme-section-text p{font-size:3.5vw;}
+      /*-- Recipe Intro Section --*/
+      .Page_Content .main-recipe-section{clip-path: polygon(50% 0%, 100% 6%, 100% 94%, 50% 100%, 0 94%, 0 6%);}
+      .Page_Content .main-recipe-section{padding:75px 0px;}
+      .Page_Content .main-recipe-section .recipe-section p{text-align: center;}
+      .Page_Content .main-recipe-section .recipe-section .mp-recipe-text p{font-size:3.5vw;}
+      /*-- Pacakge Option Section --*/
+      .Page_Content .main-package-wrapper .mp-package-text h2{font-size: 4vw;}
+      .Page_Content .main-package-wrapper .mp-package-text h3{font-size: 4vw;}
+      .Page_Content .main-package-wrapper .mp-package-text p{font-size: 3.5vw;}
+      /*-- Testimonials Section --*/
+      .Page_Content .main-break-2 .break-text-2{ padding:150px 20px;}
+      .Page_Content .main-break-2 .break-text-2 h1{font-size: 4vw;}
+      .Page_Content .main-break-2 .break-text-2 .mb-2-quote-block{padding:0 20px;}
+      .Page_Content .main-break-2 .break-text-2 .mb-2-quote-block #mb-2-quote-text {font-size: 3vw;}
+      .Page_Content .main-break-2 .break-text-2 .mb-2-quote-block #mb-2-quote-title{font-size: 3.5vw;}
+      .Page_Content .main-break-2 .break-text-2 .mb-2-quote-block #mb-2-quote-titletext{font-size: 3.5vw;}
+      /*-- Footer Section --*/
+      .Page_Content .footer-section .footer-wrapper{}
+      /*-- Footer Bottom Section --*/
+      .footer-section .footer-wrapper-bottom h1{font-size:3vw;}
+      .footer-section .footer-wrapper-bottom .fs-icons i{font-size:3vw;}
+      }
+  </style>
+</head>
+<body id="JP_index_body" style="margin:0; background-color:#E4E2E2;">
+  <nav class="HB_nav">
+    <div class="HB_nav-header">
+      <p id="nav-header_title">Jeremy Pereira</p>
+      <p id="nav-header_titletext">Mixologist / Bartender</p>
+    </div>
+    <ul class="HB_nav-list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <Header id="Hero_banner"></Header>
+  <!-- JP_main Content--->
+  <main class="Page_Content">
+    <!-- Social media icon Section --->
+    <section class="main_icon-section">
+      <div class="main_icon-headertext">
+        <h2 id="main_icon-title">Follow Me!</h2>
+        <p  id="main_icon-titletext">See what I have been up too</p>
+      </div>
+      <div class="main_icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </section>
+    <!--JP About Section --->
+    <section class="main-aboutme-wrapper">
+      <div class="aboutme-section-photo"><!-- About - Profile Image --->
+        <img src="./Template_SPhoto/Profile Picture.jpg">
+      </div>
+      <div class="aboutme-section-text"><!-- About - Profile Description --->
+        <h2>About Me</h2>
+        <h6>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse</h6>
+        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+          veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+          ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+          consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          <br/></br>
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+          adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+          dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+          exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+          <br/></br>
+          Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+          consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+      </div>
+    </section>
+    <!-- Recipe Intro Section --->
+    <section class="main-recipe-section" style="background-image:url('./template_SPhoto/barbackground.jpg');">
+      <div class="recipe-section">
+         <h2 id="RS-header-title">I can make any cocktail you want</h2>
+         <aside class="mp-recipe-gallery">
+           <div class="recipe-gallery-section-top">
+             <p>Any ingredient....</p>
+             <!--<img src="./Template_SPhoto/bartender.jpg">-->
+           </div>
+           <div class="recipe-gallery-section-top">
+             <!--<img src="./Template_SPhoto/WhiteDrink.jpg">-->
+             <p>Any Drink....</p>
+           </div>
+         </aside>
+      <h2 id="RS-header-end">I can make it.</h2>
+         <aside class="drinkcategory-section">
+           <a class="section-link" href="">
+             <div class="mrs-drinkcategory-option">
+             <i class="fas fa-glass-martini-alt"></i>
+             <h2>Exotic Drinks</h2>
+            </div>
+          </a>
+          <a class="section-link" href="">
+           <div class="mrs-drinkcategory-option">
+             <i class="fas fa-cocktail"></i>
+             <h2>Cocktails</h2>
+           </div>
+          </a>
+           <a class="section-link" href="">
+           <div class="mrs-drinkcategory-option">
+             <i class="fas fa-glass-whiskey"></i>
+             <h2>Personal Drinks</h2>
+           </div>
+         </a>
+         </aside>
+         <div class="mp-recipe-text">
+           <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+              doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+              veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+              ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+              consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+           </p>
+           <h4><a id="mp-recipe-text-link" href="">Explore my collection!</a></h4>
+         </div>
+      </div>
+    </section>
+    <!-- Package/Service Section --->
+    <section class="main-package-wrapper">
+      <aside class="mp-package-text">
+        <h2>Need me?</h2>
+        <h3>See if I am the perfect fit to you're event.</h3>
+        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+           doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+           veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+           ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+           consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+      </aside>
+      <!-- Package Item -->
+      <aside class="mp-service-package">
+        <!-- Package item -->
+        <div class="mp-package-item">
+          <div class="mp-package-item-top" style="background-image:url('./template_SPhoto/bar.jpg');">
+            <h6>Standard</h6>
+            <h3>Package Name</h3>
+          </div>
+          <div class="mp-package-item-bottom">
+            <h6>Package Includes</h6>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+               doloremque laudantium.
+            </p>
+            <ul class="mp-package-item-bottom-list">
+              <li>Included Item</li>
+              <li>Included Item</li>
+              <li>Included Item</li>
+            </ul>
+            <h4><a id="package-item-link" href="#">Book now</a></h4>
+          </div>
+        </div>
+        <!-- Package item -->
+        <div class="mp-package-item">
+          <div class="mp-package-item-top" style="background-image:url('./template_SPhoto/barbackground.jpg');">
+            <h6>Full Service</h6>
+            <h3>Package Name</h3>
+          </div>
+          <div class="mp-package-item-bottom">
+            <h6>Package Includes</h6>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+               doloremque laudantium.
+            </p>
+            <ul class="mp-package-item-bottom-list">
+              <li>Included Item</li>
+              <li>Included Item</li>
+              <li>Included Item</li>
+            </ul>
+            <h4><a id="package-item-link" href="#">Book now</a></h4>
+          </div>
+        </div>
+      </aside>
+    </section>
+    <!-- Second Quote Break -->
+    <section class="main-break-2">
+      <div class="break-text-2">
+        <h1>Testimonials</h1>
+        <div class="text-2-icon">
+          <span><i id="mb-2-quote-icon" class="far fa-comment-alt" style="color:#fff;"></i></span>
+        </div>
+        <div class="mb-2-quote-block">
+          <p id="mb-2-quote-text"><i class="fas fa-quote-left" style="color:#fff;"></i>
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+            aut fugit, sed quia consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt.Sed ut perspiciatis unde omnis iste natus
+            error sit voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore.
+          <i class="fas fa-quote-right" style="color:#fff;"></i></p>
+          <h6 id="mb-2-quote-title">Cristian</h6>
+          <h6 id="mb-2-quote-titletext">Web Developer / Big Business,INC.</h6>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer Section -->
+  <footer class="footer-section">
+    <section class="footer-wrapper">
+      <div class="wrapper-section">
+        <h2 id="section-header">What I Bring</h2>
+        <ul class="about-list">
+          <!--<img class="about-list-img" alt="Profile Image" src="./template_SPhoto/profile-art.jpg"> -->
+          <p>  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+            aut fugit, sed quia consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt.
+          </p>
+        </ul>
+      </div>
+      <div class="wrapper-section">
+        <div class="wrapper-section-1">
+          <h2 id="section-header">Contact Info</h2>
+          <ul class="link-list">
+            <li class="list-item"><i class="fas fa-phone"></i></i><a href="#">Phone: 201-555-555</a></li>
+            <li class="list-item"><i class="fas fa-envelope"></i><a href="#">Email: NameLastname@site.com</a></li>
+          </ul>
+        </div>
+        <div class="wrapper-section-2">
+          <h2 id="section-header">Site link</h2>
+          <ul class="link-list">
+            <li class="list-item"><a href="#">About Me</a></li>
+            <li class="list-item"><a href="#">Portfolio</a></li>
+            <li class="list-item"><a href="#">Gallery</a></li>
+            <li class="list-item"><a href="#">Recipes</a></li>
+            <li class="list-item"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="footer-wrapper-bottom">
+      <h1>Copyright @ Cristian Rivera</h1>
+      <div class="fs-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </section>
+  </footer>
+  <script>
+    function openNav(){
+      document.getElementById("myNav-menu").style.width = "125px";
+    /*  document.getElementById("Hero_banner").style.marginLeft = "125px";*/
+    }
+    function closeNav(){
+      document.getElementById('myNav-menu').style.width = "0";
+      /*document.getElementById("Hero_banner").style.marginLeft = "0";*/
+    }
+  </script>
+</body>
+</html>

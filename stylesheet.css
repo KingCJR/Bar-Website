@@ -1,0 +1,583 @@
+.HB_nav{
+  overflow: hidden;
+	background-color:#141319;
+  }
+  .HB_nav-header{
+    text-align: center;
+    }
+    #nav-header_title{
+      color:#e4e2e2;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: underline;
+      text-decoration-color: #553079;
+      font: 500 32px/0em Open Sans,arial,sans serif;
+      }
+    #nav-header_titletext{
+      color:#e4e2e2;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font: 500 14px/0em Open Sans,arial,sans serif;
+      }
+  .HB_nav-list{
+    width:450px;
+    margin:0 auto;
+    list-style:none;
+    }
+    .HB_nav-list li{
+      float:left;
+      font: 500 16px/0em Open Sans,arial,sans serif;
+      }
+      .HB_nav-list a{
+        display:block;
+        color:#e4e2e2;
+        text-align:center;
+        width:80px;
+        padding:20px 10px;
+        text-decoration: none;
+        }
+      .HB_nav-list a:hover{
+        color:#E4E2E2;
+        background:#553079;
+        }
+#Hero_banner{
+  max-width:100%;
+  height:90vh;
+  margin:auto;
+  background-color:#E4E2E2;
+  background-size: cover;
+  background-attachment:fixed;
+  background-position: center center;
+  background-image:url("./Template_SPhoto/beer-SPhoto.jpg");
+  }
+  /*-- Main Content --*/
+  .Page_Content{
+    max-width:100%;
+    background-color: #EDEDF0;
+    }
+    /*-- Social media Icon Section --*/
+    .main_icon-section{
+      max-width:100%;
+      padding:10px;
+      background-color: #131419;
+      }
+      .main_icon-headertext{
+        text-align:center;
+        }
+        #main_icon-title{
+          color:#E4E2E2;
+          font: 600 24px/1em Roboto,arial,sans serif;
+          }
+        #main_icon-titletext{
+          color:#E4E2E2;
+          font: 600 14px/1em Roboto,arial,sans serif;
+          }
+      .main_icons{
+        text-align:center;
+        }
+        .main_icons .fab{
+          color:#E4E2E2;
+          font-size:26px;
+          margin:5px 5px;
+          padding:10px 5px;
+          }
+        .main_icons .fab:hover{
+          color:#553079;
+          }
+
+  /*-- About Section--*/
+  .main-aboutme-wrapper{
+    display: grid;
+    margin:auto;
+    max-width:1120px;
+    grid-template-columns:repeat(auto-fit, minmax(300px, auto));
+    justify-items: center;
+    grid-gap:40px;
+    padding:125px 20px;
+    background-color:#EFEDF0;
+    }
+    .aboutme-section-photo{
+      max-width:550px;
+      height:auto;
+      }
+      .aboutme-section-photo img{
+        max-width:100%;
+        object-fit:cover;
+        box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        }
+    .aboutme-section-text{
+      height:auto;
+      }
+      .aboutme-section-text h2{
+        margin:0px;
+        color:#161621;
+        text-transform: uppercase;
+        letter-spacing: 0.25px;
+        font: 600 32px/1em calibri,arial,sans-serif;
+        border-bottom: 4px solid #56258b;
+        }
+      .aboutme-section-text h6{
+        margin:0px;
+        padding:15px 0px;
+        font-style: italic;
+        color:#8D96B8;
+        font: 600 20px/1.25em Open Sans,arial,sans-serif;
+        }
+      .aboutme-section-text p{
+        color:#161621;
+        margin:auto;
+        max-width: 800px;
+        letter-spacing: 0.25px;
+        font: 500 20px/1.5em calibri,arial,sans-serif;
+        }
+/*-- Recipe Section --*/
+  .main-recipe-section{
+    margin:auto;
+    max-width:100%;
+    padding:150px 20px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index:2;
+    background-color:#EFEDF0;
+    clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
+    }
+    .main-recipe-section:before{
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.75);
+      z-index:4;
+      position: absolute;
+      left: 0;
+      top: 0;
+      }
+    .recipe-section{
+      margin:auto;
+      position: relative;
+      z-index:5;
+      max-width:1000px;
+      padding:20px 30px;
+      text-align: center;
+      }
+        #RS-header-title{
+          margin:auto;
+          color:#fff;
+          padding-bottom: 50px;
+          text-align:center;
+          text-transform: uppercase;
+          letter-spacing: 0.25px;
+          max-width:800px;
+          font: 600 26px/1em calibri,arial,sans-serif;
+          }
+      .drinkcategory-section{
+        display:grid;
+        margin:auto;
+        max-width:800px;
+        max-height:auto;
+        grid-template-columns:repeat(auto-fit, minmax(250px, auto));
+        justify-items: center;
+        grid-gap:20px;
+        padding:20px;
+        }
+        .section-link { /* Drink/Recipe Link */
+          width:100%;
+          max-width: 300px;
+          cursor: pointer;
+          text-decoration: none;
+          background-color:none;
+          }
+        .section-link:hover {
+          color:#722F37;
+          text-decoration: none;
+          transition: 1s;
+          background-color:rgba(255,255,255,0.5);
+          }
+            .section-link:hover i{
+              color:#660000;
+              transition: 0.5s;
+              z-index:1;
+              transform:scale(1.35);
+              }
+            .section-link:hover h2{
+              color:#0f0f0f;
+              z-index:2;
+              position: relative;
+              transition: 0.5s;
+              transform:translate(0,35%);
+              background-color:rgba(255,255,255,0);
+              }
+            .section-link:hover .mrs-drinkcategory-option{
+              transition:0.75s;
+              border:4px solid #660000;
+              }
+          .mrs-drinkcategory-option{
+            margin:20px;
+            padding:20px;
+            max-width:100%;
+            border:4px solid #f1f1f1;
+            }
+            .mrs-drinkcategory-option i{
+              color:#660000;
+              font-size:120px;
+              padding:20px;
+              }
+            .mrs-drinkcategory-option h2{
+              color:#fff;
+              margin:0px;
+              height:auto;
+              padding:20px 0px;
+              text-align: center;
+              background-color:#0f0f0f;
+              font: 600 14px/1em Verdana,arial,sans-serif;
+              }
+      .mp-recipe-text p{
+        color:#fff;
+        margin:auto;
+        max-width: 800px;
+        /*color: #747474;*/
+        letter-spacing: 0.25px;
+        font: 500 20px/1.5em calibri,arial,sans-serif;
+        }
+      #mp-recipe-text-link{
+        color:#fff;
+        margin-top:50px;
+        padding:15px 30px;
+        background:#ffa630;
+        display:inline-block;
+        text-decoration: none;
+        border-radius: 5px;
+        font: 400 18px/1.5em Open Sans,arial,sans-serif;
+        }
+        #mp-recipe-text-link:hover{
+          background-color:rgba(255,166,48,0.5);
+          }
+/*-- Package/Service Section --*/
+.main-package-wrapper{
+  margin:auto;
+  max-width: 100%;
+  max-height:auto;
+  justify-items: center;
+  grid-gap:20px;
+  padding:100px 20px;
+  background-color:#EFEDF0;
+  }
+    .mp-package-text{
+      margin:auto;
+      max-width:1000px;
+      }
+      .mp-package-text h2{
+        color:#252422;
+        margin:0px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.25px;
+        font: 600 32px/1.5em Open Sans,arial,sans-serif;
+        border-bottom: 4px solid #722f37;
+        }
+      .mp-package-text h3{
+        color:#252422;
+        padding:5px 0px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.25px;
+        font: 600 26px/1em Open Sans,arial,sans-serif;
+        }
+      .mp-package-text p{
+        color:#000;
+        margin:auto;
+        letter-spacing: 0.25px;
+        font: 500 20px/1.5em calibri,arial,sans-serif;
+        }
+  .mp-service-package{
+    display:grid;
+    margin:auto;
+    max-width:800px;
+    max-height:auto;
+    grid-template-columns:repeat(auto-fit, minmax(300px, auto));
+    justify-items: center;
+    grid-gap:40px;
+    padding:100px 0px;
+    background-color: #EFEDF0;
+    }
+    .mp-package-item{
+      height:auto;
+      margin:0px;
+      max-width:auto;
+      background:#fff;
+      }
+      .mp-package-item-top{
+        height:200px;
+        position: relative;
+        z-index:2;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        }
+        .mp-package-item-top:before{
+          content: "";
+          display: block;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.5);
+          z-index:1;
+          position: absolute;
+          left: 0;
+          top: 0;
+          }
+        .mp-package-item-top h6{
+          text-align: center;
+          color:#fff;
+          margin:20px;
+          padding:10px;
+          width:150px;
+          display: inline-block;
+          text-transform: uppercase;
+          letter-spacing: 0.25px;
+          position: relative;
+          z-index:2;
+          font: 500 14px/1em helvetica,arial,sans-serif;
+          background-color:#587ab9;
+          }
+        .mp-package-item-top h3{
+          text-align: center;
+          color:#fff;
+          margin:0px;
+          padding:5px;
+          position: relative;
+          z-index:2;
+          text-transform: uppercase;
+          letter-spacing: 0.25px;
+          font: 600 32px/1em calibri,arial,sans-serif;
+          }
+      .mp-package-item-bottom{
+        margin:20px 0px;
+        padding-bottom:20px;
+        text-align: center;
+        background-color:rgba(54,55,50,0.15);
+        box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        }
+        .mp-package-item-bottom h6{
+          margin:0px;
+          color:#fff;
+          padding:10px 0px;
+          text-align: center;
+          text-transform: uppercase;
+          background-color: #660000;
+          font: 600 20px/1em Open Sans,arial,sans-serif;
+          }
+        .mp-package-item-bottom p{
+          color:#252422;
+          margin:0px;
+          padding:10px 20px;
+          letter-spacing: 0.25px;
+          font: 400 14px/1.5em Open Sans,arial,sans-serif;
+          }
+        .mp-package-item-bottom-list{
+          padding:0px 75px;
+          }
+          .mp-package-item-bottom-list li{
+            text-align: center;
+            list-style-type: none;
+            text-transform: uppercase;
+            padding:15px 0px;
+            border-bottom: 2px solid #363732;
+            font: 500 18px/1.5em calibri,arial,sans-serif;
+            }
+        .mp-package-item-bottom h4{
+          color:#fff;
+          padding:20px 0px;
+          text-align: center;
+          }
+          #package-item-link{
+            color:#fff;
+            padding:15px 30px;
+            background:#363732;
+            text-decoration: none;
+            border-radius: 5px;
+            font: 400 18px/1.5em Open Sans,arial,sans-serif;
+            }
+            #package-item-link:hover{
+              color:#fff;
+              padding:15px 30px;
+              transition:0.5s;
+              background:rgba(255, 166, 48,0.75);
+              text-decoration: none;
+              font: 400 18px/1.5em Open Sans,arial,sans-serif;
+              }
+  .main-break-2{
+    text-align:center;
+    padding:25px 0px;
+    height:600px;
+    margin:0px 0px -100px;
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./Template_SPhoto/alcohol.jpg");
+    background-attachment: fixed;
+    clip-path: polygon(50% 5%, 100% 15%, 100% 85%, 50% 95%, 0% 85%, 0% 15%);
+    background-color:#EFEDF0;
+    }
+    .main-break-2 img{
+      width:100%;
+      max-width:100%;
+      height:400px;
+      object-fit: cover;
+      background-attachment: fixed;
+      }
+    .break-text-2{
+      position: relative;
+      top: 25%;
+      /*left: 50%;*/
+      padding: 20px 200px;
+      }
+      .break-text-2 h1{
+        color:#EFEDF0;
+        margin:0px;
+        padding:5px 0px;
+        letter-spacing: 0.25px;
+        text-transform: uppercase;
+        font: 600 32px/2em calibri,Arial,sans serif;
+        }
+        #mb-2-quote-icon{
+          color:#fff;
+          margin:0px;
+          font-size: 50px;
+          }
+          .text-2-icon span {
+            display: inline-block;
+            position: relative;
+          }
+          .text-2-icon span:before,
+          .text-2-icon span:after {
+            content: "";
+            position: absolute;
+            height: 5px;
+            border-bottom: 1px solid white;
+            border-top: 1px solid white;
+            top: 15;
+            width: 100%;
+          }
+          .text-2-icon span:before {
+            right: 100%;
+            margin-right: 15px;
+            }
+          .text-2-icon span:after {
+            left: 100%;
+            margin-left: 15px;
+            }
+      .mb-2-quote-block{
+        padding:0px 30px;
+        text-align: left;
+        }
+        #mb-2-quote-text{
+          color:#EFEDF0;
+          letter-spacing: 0.25px;
+          font: 500 20px/1.5em calibri,arial,sans-serif;
+          }
+        #mb-2-quote-title{
+          color:#EFEDF0;
+          margin:0px;
+          letter-spacing: 0.25px;
+          text-align: center;
+          font: 600 32px/1.5em calibri,arial,sans-serif;
+          }
+        #mb-2-quote-titletext{
+          margin:0px;
+          color:#EFEDF0;
+          letter-spacing: 0.25px;
+          text-align: center;
+          font: 500 24px/1.5em calibri,arial,sans-serif;
+          }
+/*-- Footer Section --*/
+  .footer-section{
+    margin:auto;
+    max-width:100%;
+    padding-top:75px;
+    background: #161621;
+    }
+    .footer-wrapper{
+      display: grid;
+      margin:auto;
+      max-width:1000px;
+      grid-template-columns:repeat(auto-fit, minmax(300px, auto));
+      grid-template-rows: auto;
+      justify-items: center;
+      grid-gap:20px;
+      padding:40px 20px;
+      background: #161621;
+      }
+      .wrapper-section{
+        width: 100%;
+        max-width:600px;
+        height: 100%;
+        padding:20px;
+
+        }
+        #section-header{
+          color:#fff;
+          margin:0px;
+          padding:0px 20px;
+          font: 500 20px/1em Open Sans, arial, sans serif;
+          }
+        .contact-list{
+          margin:0px;
+          padding:5px 20px;
+          list-style-type: none;
+          }
+          .contact-list-img{
+            width:100%;
+            max-width:100%;
+            height:150px;
+            }
+          .fas{
+            color:#8D96B8;
+            padding-right:5px;
+            font-size:1rem;
+            }
+          .list-item {
+            margin:0px;
+            padding: 15px 0px 5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font: 400 14px/1em Open Sans, arial, sans serif;
+            }
+          .list-item a{
+            width:100%;
+            color:#818181;
+            padding:0px 0px;
+            text-decoration: none;
+            }
+          .list-item a:hover{
+            width:100%;
+            color:#fff;
+            }
+        .link-list{
+          margin:0px;
+          padding:5px 20px;
+          list-style-type: none;
+          }
+    .footer-wrapper-bottom{
+      display:grid;
+      margin:auto;
+      padding:0px 20px;
+      background: #56258B;
+      }
+      .footer-wrapper-bottom h1{
+        color:#fff;
+        grid-column: 1;
+        font: 600 20px/1em calibri, arial, sans serif;
+        }
+      .fs-icons{
+        text-align:right;
+        grid-column: 2;
+
+        }
+        .fs-icons .fab{
+          color:#E4E2E2;
+          font-size:26px;
+          margin:5px 5px;
+          padding:10px 5px;
+          }
